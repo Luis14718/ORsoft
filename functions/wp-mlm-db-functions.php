@@ -904,7 +904,7 @@ function wpmlm_insert_leg_amount_new($user_id, $package_amount,$package_id) {
     }
     return true;
 }
-
+//fixed funtion
 function wpmlm_getAllParents($level_from, $user_id = NULL) {
     if ($user_id == NULL) {
         return false;
